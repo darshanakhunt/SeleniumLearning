@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-24T16:52:15 IST" name="Default suite" finished-at="2024-12-24T16:52:28 IST" duration-ms="13207">
+    <groups>
+    </groups>
+    <test started-at="2024-12-24T16:52:15 IST" name="Default test" finished-at="2024-12-24T16:52:28 IST" duration-ms="13207">
+      <class name="Selenium.FreeCrmTestHashMap">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Selenium.FreeCrmTestHashMap@7b2bbc3]" started-at="2024-12-24T16:52:15 IST" name="setUp" finished-at="2024-12-24T16:52:26 IST" duration-ms="11526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:Selenium.FreeCrmTestHashMap@7b2bbc3]" started-at="2024-12-24T16:52:26 IST" name="loginTest" finished-at="2024-12-24T16:52:28 IST" duration-ms="1575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- Selenium.FreeCrmTestHashMap -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
