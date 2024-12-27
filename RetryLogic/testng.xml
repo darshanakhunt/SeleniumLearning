@@ -1,0 +1,14 @@
+<suite name="RetryFailedTestSuite" verbose="1">
+
+
+	<listeners>
+		<listener class-name="Anyalyser.MyTransformer" />
+	</listeners>
+
+	<test name="RetryMultipleFailedTestCases">
+		<classes>
+			<class name="MyTest.Test12" />
+		</classes>
+	</test>
+
+</suite>
