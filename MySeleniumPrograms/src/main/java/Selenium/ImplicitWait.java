@@ -33,8 +33,7 @@ public class ImplicitWait {
 	public static void sendkeysToElement(WebDriver driver, WebElement locator, String text, int timeout) 
 	{
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
-		WebElement element = wait.until(ExpectedConditions.visibilityOf(locator));
-		element.sendKeys(text);
+		wait.until(ExpectedConditions.visibilityOf(locator)).sendKeys(text);
 		
 	}
 	public static void clickOn(WebDriver driver, WebElement locator, int timeout)

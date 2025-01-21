@@ -23,10 +23,18 @@
 			<scope>test</scope>
 		</dependency>
 
+
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.10.0</version> <!-- Replace with the latest version -->
+			<version>4.27.0</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>DemoFirstRepo1</groupId>
+			<artifactId>DemoFirstRepo1</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 
 
